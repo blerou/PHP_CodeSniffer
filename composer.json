@@ -1,5 +1,5 @@
 {
-    "name": "squizlabs/php_codesniffer",
+    "name": "blerou/php_codesniffer",
     "description": "PHP_CodeSniffer tokenises PHP, JavaScript and CSS files and detects violations of a defined set of coding standards.",
     "type": "library",
     "keywords": [
@@ -48,6 +48,9 @@
     },
     "suggest": {
         "phpunit/php-timer": "dev-master"
+    },
+    "replace": {
+        "squizlabs/php_codesniffer": "self.version"
     },
     "require": {
         "php": ">=5.1.2",
